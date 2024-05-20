@@ -1,0 +1,25 @@
+{
+  "applinks":{
+    "apps":[
+       
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "PK82N2BACV.co.busha.apple",
+          "PK82N2BACV.co.busha.boro.development"
+        ],
+        "components":[
+          {
+            "/":"/airtime",
+            "comment":"Matches URL with a path /airtime"
+          },
+          {
+            "/":"/product/*",
+            "comment":"Matches any URL with a path that starts with /product/."
+          }
+        ]
+      }
+    ]
+  }
+}
