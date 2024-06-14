@@ -3,16 +3,6 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "co.busha.android",
-      "sha256_cert_fingerprints": [
-        "47:92:0E:60:EB:6F:89:64:8E:00:C9:6D:D3:4D:5A:64:D0:92:3A:24:93:B7:AD:BB:0E:B1:11:4A:72:A3:4E:19"
-      ]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
       "package_name": "co.busha.android.development",
       "sha256_cert_fingerprints": [
         "AA:1C:0E:E1:29:28:0C:84:A1:EB:32:13:40:CE:06:B9:79:6D:34:BF:22:B7:DF:F4:7F:98:ED:CA:8A:AF:9C:69"
