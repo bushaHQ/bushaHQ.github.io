@@ -1,22 +1,28 @@
 {
-  "applinks":{
-    "apps":[
-       
-    ],
-    "details":[
+  "applinks": {
+    "apps": [],
+    "details": [
       {
-        "appIDs":[
+        "appIDs": [
           "PK82N2BACV.co.busha.apple",
           "PK82N2BACV.co.busha.boro.development"
         ],
-        "components":[
+        "components": [
           {
-            "/":"/airtime",
-            "comment":"Matches URL with a path /airtime"
+            "/": "/airtime",
+            "comment": "Matches URL with a path /airtime"
           },
           {
-            "/":"/product/*",
-            "comment":"Matches any URL with a path that starts with /product/."
+            "/": "/transactions/*",
+            "comment": "Matches any URL with a path that starts with /transactions/."
+          },
+          {
+            "/": "/connect/*",
+            "comment": "Matches any URL with a path that starts with /connect/."
+          },
+          {
+            "/": "/product/*",
+            "comment": "Matches any URL with a path that starts with /product/."
           }
         ]
       }
