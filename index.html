@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/public/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000639" />
+    <meta name="background-color" content="#000000" />
+
+    <meta name="description" content="Buy & Sell Bitcoin, Ethereum and more" />
+
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Buy & Sell Bitcoin, Ethereum and more | Busha" />
+    <meta property="og:description" content="Buy & Sell Bitcoin, Ethereum and more" />
+    <meta property="og:site_name" content="Busha" />
+    <meta property="og:image"
+        content="https://res.cloudinary.com/dwoc5fknz/image/upload/v1636503690/landing_images/618ad5555484ec0181441d76_busha-meta-image.png" />
+
+    <link rel="apple-touch-icon" href="/public/logo192.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Busha - Buy & Sell Bitcoin, Ethereum and more</title>
+
+    <style id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+
+    <script type="text/javascript">
+        (function () {
+            if (self === top) {
+                var antiClickjack = document.getElementById("antiClickjack");
+                antiClickjack.parentNode.removeChild(antiClickjack);
+            } else {
+                top.location = self.location;
+            }
+        })();
+    </script>
+
+    <style>
+        :root {
+            --text-foreground: #000;
+            --background: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "slnt" 0;
+            color: var(--text-foreground);
+            background-color: var(--background);
+        }
+
+        main {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        main>h4 {
+            position: absolute;
+            top: 0;
+            font-weight: 500;
+            padding: 8px;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 300ms ease-in;
+        }
+
+        main>h4.show {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        main>div {
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main div svg {
+            width: 75%;
+        }
+
+        #logo-dark {
+            display: none;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-foreground: #fff;
+                --background: #000;
+            }
+
+            #logo-light {
+                display: none;
+            }
+
+            #logo-dark {
+                display: block;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <main>
+        <h4>Redirecting you...</h4>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 2230 575" id="logo-light">
+                <path fill="#000639"
+                    d="M833.439 451.161v35.007h-67.763V86.2h67.763v153.867c16.115-22.771 46.117-38.335 82.225-38.335 82.776 0 132.196 58.879 132.196 144.433s-49.443 144.433-133.321 144.433c-33.881 0-64.985-14.989-81.1-39.437Zm146.66-104.996c0-51.648-30.002-85.53-75.545-85.53-45.542 0-75.545 33.882-75.545 85.554 0 51.672 29.979 85.53 75.545 85.53 45.543 0 75.545-33.882 75.545-85.554ZM1354.52 486.169h-68.34v-43.34c-15.56 30.553-47.22 47.769-87.2 47.769-62.79 0-103.88-45.542-103.88-111.102v-173.31h67.77v158.872c0 38.335 23.89 64.985 58.33 64.985 38.33 0 64.98-30.003 64.98-71.115V206.162h68.34v280.007ZM1400.61 392.833h62.21c2.78 26.674 23.32 43.34 53.87 43.34 26.68 0 44.45-13.337 44.45-30.003 0-62.207-153.32-2.777-153.32-121.087 0-48.895 42.76-83.327 100.54-83.327 65.56 0 110.55 36.109 113.33 90.534h-62.21c-3.88-26.099-27.77-39.436-49.44-39.436-24.45 0-40.56 11.11-40.56 30.002 0 60.556 155.54-6.106 155.54 120.537 0 52.773-42.77 87.205-108.33 87.205-67.73 0-112.75-37.76-116.08-97.765ZM1676.72 86.2h67.76v163.325c15.56-30.553 47.77-47.769 87.78-47.769 62.78 0 103.87 45.542 103.87 111.102v173.31h-67.76V327.297c0-38.335-23.9-64.986-58.88-64.986-37.79 0-64.99 30.003-64.99 71.116v152.765h-67.76V86.2h-.02ZM2230 306.178v179.991h-67.21v-41.664c-11.66 27.776-43.89 46.117-83.88 46.117-55.55 0-93.34-35.557-93.34-83.877 0-54.45 42.22-88.331 105-88.331h51.67c13.89 0 20.55-7.782 20.55-18.892 0-27.225-21.12-46.668-57.23-46.668s-57.78 22.771-58.88 47.769h-61.11c3.33-55.551 50.55-98.867 123.32-98.867C2180 201.732 2230 242.845 2230 306.178Zm-67.21 61.657v-4.453h-62.78c-28.88 0-48.32 16.114-48.32 40.561 0 21.67 17.76 36.109 43.34 36.109 42.74 0 67.76-30.003 67.76-72.217Z" />
+                <path fill="#16CB3E"
+                    d="M528.753 574.266a45.144 45.144 0 0 1-32.314-13.541L13.387 78.001a45.844 45.844 0 0 1 1.909-62.939 45.862 45.862 0 0 1 62.957-1.678l482.815 482.724a45.85 45.85 0 0 1 9.842 49.824 45.854 45.854 0 0 1-42.157 28.334ZM528.791 296.411a45.671 45.671 0 0 1-32.347-13.556L291.66 78.086a45.74 45.74 0 0 1 0-64.688 45.747 45.747 0 0 1 64.694 0l204.783 204.768a45.432 45.432 0 0 1 13.532 32.344 45.425 45.425 0 0 1-13.532 32.345 44.71 44.71 0 0 1-32.346 13.556ZM250.529 574.668a45.671 45.671 0 0 1-32.347-13.556L13.398 356.343a45.74 45.74 0 0 1 32.347-78.086 45.743 45.743 0 0 1 32.347 13.398l204.784 204.768a45.43 45.43 0 0 1 13.531 32.344 45.425 45.425 0 0 1-13.531 32.345 44.721 44.721 0 0 1-32.347 13.556Z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 663 171" id="logo-dark">
+                <path fill="#fff"
+                    d="M247.52 133.989v10.396h-20.125V25.6h20.125v45.697c4.786-6.763 13.696-11.385 24.42-11.385 24.583 0 39.261 17.486 39.261 42.894 0 25.409-14.685 42.895-39.595 42.895-10.063 0-19.3-4.452-24.086-11.712Zm43.556-31.183c0-15.338-8.91-25.4-22.436-25.4-13.525 0-22.436 10.061-22.436 25.407s8.904 25.402 22.436 25.402c13.526 0 22.436-10.063 22.436-25.409ZM402.273 144.385h-20.295v-12.871c-4.622 9.074-14.023 14.187-25.899 14.187-18.645 0-30.848-13.525-30.848-32.996v-51.47h20.125v47.182c0 11.385 7.097 19.3 17.322 19.3 11.385 0 19.3-8.91 19.3-21.12v-45.37h20.295v83.158ZM415.963 116.666h18.474c.825 7.922 6.927 12.871 16.001 12.871 7.921 0 13.198-3.961 13.198-8.91 0-18.475-45.533-.825-45.533-35.961 0-14.521 12.701-24.747 29.86-24.747 19.47 0 32.832 10.724 33.657 26.887h-18.475c-1.152-7.75-8.249-11.712-14.684-11.712-7.261 0-12.047 3.3-12.047 8.91 0 17.985 46.195-1.813 46.195 35.798 0 15.673-12.701 25.899-32.171 25.899-20.118 0-33.487-11.214-34.475-29.035ZM497.961 25.6h20.125v48.506c4.622-9.074 14.187-14.187 26.07-14.187 18.645 0 30.848 13.525 30.848 32.996v51.47h-20.125V97.203c0-11.385-7.097-19.3-17.486-19.3-11.222 0-19.3 8.91-19.3 21.12v45.37h-20.124V25.6h-.008ZM662.279 90.93v53.455h-19.961v-12.373c-3.463 8.249-13.034 13.696-24.91 13.696-16.498 0-27.719-10.56-27.719-24.91 0-16.171 12.537-26.233 31.182-26.233h15.346c4.125 0 6.101-2.312 6.101-5.611 0-8.086-6.272-13.86-16.995-13.86-10.724 0-17.16 6.763-17.487 14.187h-18.147c.988-16.498 15.011-29.362 36.622-29.362 21.12-.007 35.968 12.203 35.968 31.012Zm-19.961 18.312v-1.323h-18.645c-8.576 0-14.35 4.786-14.35 12.047 0 6.435 5.276 10.723 12.871 10.723 12.693 0 20.124-8.91 20.124-21.447Z" />
+                <path fill="#16CB3E"
+                    d="M157.033 170.549a13.403 13.403 0 0 1-9.597-4.021L3.976 23.165A13.615 13.615 0 0 1 13.792.508a13.62 13.62 0 0 1 9.448 3.467L166.63 147.337a13.613 13.613 0 0 1-2.065 20.896 13.62 13.62 0 0 1-7.531 2.316ZM157.044 88.03a13.567 13.567 0 0 1-9.607-4.026L86.619 23.191a13.584 13.584 0 1 1 19.213-19.212l60.818 60.813a13.492 13.492 0 0 1 2.974 14.812 13.492 13.492 0 0 1-2.974 4.4 13.275 13.275 0 0 1-9.606 4.026ZM74.404 170.669a13.564 13.564 0 0 1-9.607-4.026L3.98 105.829a13.581 13.581 0 0 1 0-19.212 13.587 13.587 0 0 1 19.213 0l60.818 60.814a13.487 13.487 0 0 1 0 19.212 13.293 13.293 0 0 1-9.606 4.026Z" />
+            </svg>
+        </div>
+    </main>
+
+    <script>
+        (function name() {
+            const redirectText = document.querySelector("h4");
+
+            const params = new URLSearchParams(window.location.search);
+            const source = params.get("source");
+
+            const allowedSources = ["sms", "notiff"];
+
+            if (source && allowedSources.includes(source)) {
+                redirectText.classList.add("show");
+                window.location.replace("https://instant.busha.ng/notifications");
+            }
+        })()
+    </script>
+
+</body>
+
+</html>
