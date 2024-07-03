@@ -150,7 +150,7 @@
             const params = new URLSearchParams(window.location.search);
             const source = params.get("source");
 
-            const allowedSources = ["sms", "notiff"];
+            const allowedSources = ["sms", "pushnotiff"];
 
             if (source && allowedSources.includes(source)) {
                 redirectText.classList.add("show");
