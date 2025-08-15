@@ -26,7 +26,7 @@
           },
           {
             "/": "/verify-account/*",
-            "comment": "Matches any URL with a path that starts with /verify-account/."/verify-account
+            "comment": "Matches any URL with a path that starts with /verify-account/."
           }
         ]
       }
