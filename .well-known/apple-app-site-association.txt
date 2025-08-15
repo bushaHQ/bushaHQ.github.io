@@ -23,6 +23,10 @@
           {
             "/": "/product/*",
             "comment": "Matches any URL with a path that starts with /product/."
+          },
+          {
+            "/": "/verify-account/*",
+            "comment": "Matches any URL with a path that starts with /verify-account/."/verify-account
           }
         ]
       }
