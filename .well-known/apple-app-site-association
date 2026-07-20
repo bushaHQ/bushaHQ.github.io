@@ -13,6 +13,10 @@
             "comment": "Matches URL with a path /airtime"
           },
           {
+            "/": "/oauth/login",
+            "comment": "Matches URL with a path /oauth/login"
+          },
+          {
             "/": "/transactions/*",
             "comment": "Matches any URL with a path that starts with /transactions/."
           },
